@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+.vscode/
+logs/*.log
+checkpoints/*.pth
+checkpoints/*.pkl
+outputs/predictions/*.csv
+outputs/reports/*.json
+outputs/graphs/*.png
+outputs/segmented/*
+dataset/images/*
+dataset/masks/*
+dataset/train/*/*
+dataset/val/*/*
+dataset/test/*/*
+!.gitkeep
